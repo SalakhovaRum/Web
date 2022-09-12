@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  font-size: 14px;
+  line-height: 20px;
+  color: #44444;
+  background-color: #DEB887;
+}
+
+h1 {
+  margin: 0 auto 5px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  border-bottom: 2px solid #CD853F;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.site-header {
+  min-width: 500px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("img/img 2.png");
+  background-size: cover;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 550px;
+  margin: 0 auto 70px;
+  padding: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: left;
+}
+
+.feature-furniture {
+  padding-top: 65px;
+}
+
+.feature-lighting {
+  padding-top: 65px;
+}
+
+.advantages {
+  width: 550px;
+  margin: 0 auto 70px;
+  padding: 0 65px;
+}
+
+.advantages-item {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: thick double #FF4500;
+  color: #800000;
+}
+
+.site-footer {
+  min-width: 550px;
+  background-color: #847462;
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+/* Button */
+.btn {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 45px;
+
+  border: 5px solid #fff;
+  font-size: 14px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s
+  liner, color .1s liner;
+  }
+
+.btn:hover {
+  background-color: #000000;
+  color: #FFFF00;
+}
